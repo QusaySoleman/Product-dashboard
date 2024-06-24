@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+ 
+
+}
+/* use grouping in css */
+/* the same style  */
+form , .update-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 45px 10px;
+    width: 700px;
+}
+
+form div ,.update-info div{
+    width: 400px;
+    padding: 5px;
+}
+
+form p ,.update-info p{
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,.update-info input {
+    margin-bottom: 15px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    border-bottom: solid 4px #1C1678;
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 17px;
+
+}
+
+.btn,button {
+    width: 150px;
+    border: 0;
+    cursor: pointer;
+    background-color: #061571;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    transition: .5s ease;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #eee;
+    color: #061571;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eee;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 15px;
+    width: 650px;
+
+}
+
+.content div {
+    display: flex;
+    margin: 10px 0;
+    font-size: 17px;
+
+}
+
+.content p {
+    font-weight: 700;
+    margin: 0 10px;
+}
+
+.content .content-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.no-product{
+    color: red;
+    font-size: 48px;
+}
+
+.Error-msg{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 5px;
+    margin: 10px 0;
+    background-color: #d17a7a;
+    border-radius: 10px;
+}
